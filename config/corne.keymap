@@ -85,6 +85,11 @@
             bindings = <&kp QMARK>;
             key-positions = <1 2>;
         };
+
+        Del {
+            bindings = <&kp DEL>;
+            key-positions = <8 7>;
+        };
     };
 
     keymap {
