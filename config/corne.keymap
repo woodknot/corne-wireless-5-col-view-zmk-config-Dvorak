@@ -122,10 +122,10 @@
 
             display-name = "Base";
             bindings = <
-  &mt LCTRL SQT        &mt LSHFT COMMA  &mt LALT DOT  &mt LWIN P  &kp Y                   &kp F             &mt RWIN G   &mt RALT C   &mt RSHFT R  &mt RCTRL L
-  &kp A                &kp O            &kp E         &kp U       &kp I                   &kp D             &kp H        &kp T        &kp N        &kp S
-  &mt LCTRL SEMICOLON  &mt LSHIFT Q     &mt LALT J    &mt LWIN K  &kp X                   &kp B             &mt RWIN M   &mt RALT W   &mt RSHFT V  &mt RCTRL Z
-                                        &mt LWIN TAB  &lt 1 DEL   &mt LSHIFT BACKSPACE    &mt RSHIFT MINUS  &lt 2 SPACE  &lt 3 ENTER
+  &kp SQT              &kp COMMA     &kp DOT       &kp P       &kp Y                   &kp F             &kp G        &kp C        &kp R        &kp L
+  &kp A                &kp O         &kp E         &kp U       &kp I                   &kp D             &kp H        &kp T        &kp N        &kp S
+  &mt LCTRL SEMICOLON  &mt LSHIFT Q  &mt LALT J    &mt LWIN K  &kp X                   &kp B             &mt RWIN M   &mt RALT W   &mt RSHFT V  &mt RCTRL Z
+                                     &mt LWIN TAB  &lt 1 DEL   &mt LSHIFT BACKSPACE    &mt RSHIFT MINUS  &lt 2 SPACE  &lt 3 ENTER
             >;
         };
 
@@ -141,7 +141,7 @@
   &lt 4 HOME    &kp PSCRN  &kp UP         &kp K_UNDO  &kp LC(X)    &none      &kp LPAR        &kp RPAR        &kp SLASH       &kp QMARK
   &mt LWIN END  &kp LEFT   &kp DOWN       &kp RIGHT   &kp LC(C)    &kp EQUAL  &mt RCTRL LBRC  &mt RSHFT RBRC  &mt RSHFT BSLH  &mt RCTRL PIPE
   &kp LCTRL     &kp LSHFT  &kp LALT       &none       &kp LC(V)    &none      &kp LBKT        &kp RBKT        &kp RSHFT       &mt LCTRL QMARK
-                           &kp BACKSPACE  &none       &kp ESC      &none      &none           &none
+                           &kp BACKSPACE  &none       &kp ESC      &none      &kp RWIN        &none
             >;
         };
 
