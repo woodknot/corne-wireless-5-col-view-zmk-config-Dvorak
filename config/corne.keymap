@@ -102,6 +102,12 @@
             key-positions = <15 16>;
             layers = <0>;
         };
+
+        app_calc {
+            bindings = <&kp C_AL_CALC>;
+            key-positions = <24 14>;
+            layers = <0 2>;
+        };
     };
 
     keymap {
