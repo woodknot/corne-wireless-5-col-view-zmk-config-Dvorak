@@ -114,6 +114,108 @@
             key-positions = <10 11>;
             layers = <0>;
         };
+
+        LBracketThumb {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <13 32>;
+            layers = <0>;
+        };
+
+        RBracketThumb {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <16 32>;
+            layers = <0>;
+        };
+
+        LBraceThumb {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <12 32>;
+            layers = <0>;
+        };
+
+        RBraceThumb {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <17 32>;
+            layers = <0>;
+        };
+
+        BackSlashThumb {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <11 32>;
+            layers = <0>;
+        };
+
+        ForwardSlashThumb {
+            bindings = <&kp SLASH>;
+            key-positions = <18 32>;
+            layers = <0>;
+        };
+
+        PipeThumb {
+            bindings = <&kp PIPE>;
+            key-positions = <19 32>;
+            layers = <0>;
+        };
+
+        ThumbShift1 {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <10 33>;
+            layers = <0>;
+        };
+
+        ThumbShift2 {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <11 33>;
+            layers = <0>;
+        };
+
+        ThumbShift3 {
+            bindings = <&kp HASH>;
+            key-positions = <12 33>;
+            layers = <0>;
+        };
+
+        ThumbShift4 {
+            bindings = <&kp DOLLAR>;
+            key-positions = <33 13>;
+            layers = <0>;
+        };
+
+        ThumbShift5 {
+            bindings = <&kp PERCENT>;
+            key-positions = <33 14>;
+            layers = <0>;
+        };
+
+        ThumbShift6 {
+            bindings = <&kp CARET>;
+            key-positions = <33 15>;
+            layers = <0>;
+        };
+
+        ThumbShift7 {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <33 16>;
+            layers = <0>;
+        };
+
+        ThumbShift8 {
+            bindings = <&kp ASTERISK>;
+            key-positions = <33 17>;
+            layers = <0>;
+        };
+
+        ThumbShift9 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <33 18>;
+            layers = <0>;
+        };
+
+        ThumbShift0 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <33 19>;
+            layers = <0>;
+        };
     };
 
     keymap {
