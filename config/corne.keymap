@@ -112,6 +112,7 @@
         caps {
             bindings = <&kp CAPS>;
             key-positions = <10 11>;
+            layers = <0>;
         };
     };
 
@@ -125,12 +126,12 @@
             // |  Z  |  X  |  C  |  V  |  B  |     |  N  |  M   | CTRL | META | . |
             //             | GUI | LWR | SPC |     | ENT | RSE  | BSPC |
 
-            display-name = "Base";
+            display-name = "Dvorak";
             bindings = <
-  &mt LALT SQT         &kp COMMA     &kp DOT       &kp P      &kp Y                   &kp F             &kp G        &kp C        &kp R        &kp L
-  &kp A                &kp O         &kp E         &kp U      &kp I                   &kp D             &kp H        &kp T        &kp N        &kp S
-  &mt LCTRL SEMICOLON  &mt LSHIFT Q  &kp J         &kp K      &kp X                   &kp B             &kp M        &kp W        &mt RSHFT V  &mt RCTRL Z
-                                     &mt LWIN TAB  &lt 1 DEL  &mt LSHIFT BACKSPACE    &mt RSHIFT MINUS  &lt 2 SPACE  &lt 3 ENTER
+  &mt LALT SQT         &kp COMMA  &kp DOT       &kp P      &kp Y                   &kp F             &kp G        &kp C        &kp R  &kp L
+  &kp A                &kp O      &kp E         &kp U      &kp I                   &kp D             &kp H        &kp T        &kp N  &kp S
+  &mt LCTRL SEMICOLON  &kp Q      &kp J         &kp K      &kp X                   &kp B             &kp M        &kp W        &kp V  &mt RCTRL Z
+                                  &mt LWIN TAB  &lt 1 DEL  &mt LSHIFT BACKSPACE    &mt RSHIFT MINUS  &lt 2 SPACE  &lt 3 ENTER
             >;
         };
 
@@ -141,7 +142,7 @@
             // | `~ |     |     |  ,< |  :  |     |  ;  |  .> | CTRL| META |      |
             //            | GUI | ESC | SPC |     | ENT |     | TAB |
 
-            display-name = "Raise";
+            display-name = "NavSym";
             bindings = <
   &lt 4 HOME    &kp PSCRN  &kp UP         &kp K_UNDO  &kp LC(X)    &none             &kp LPAR        &kp RPAR           &kp SLASH       &kp QMARK
   &mt LWIN END  &kp LEFT   &kp DOWN       &kp RIGHT   &kp LC(C)    &kp EQUAL         &mt RCTRL LBRC  &mt RSHFT RBRC     &mt RSHFT BSLH  &mt RCTRL PIPE
@@ -158,7 +159,7 @@
                         &kp COMMA  &kp DOT    &kp EQUAL    &kp ESC    &none     &kp ENTER
             >;
 
-            label = "Lower";
+            label = "12FnAud";
         };
 
         bt_nav_music {
@@ -168,7 +169,7 @@
             // | BTCLR |     |     |     |     |     |     |     |     |     |     |
             //               | GUI |     | SPC |     | ENT | ESC | TAB |
 
-            display-name = "Tri";
+            display-name = "BT_Nav";
             bindings = <
   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &bt BT_SEL 4    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
   &kp LCTRL     &kp LSHFT     &kp LALT      &kp LWIN          &none           &kp LA(F4)    &kp F5        &kp HOME      &kp UP        &kp END
