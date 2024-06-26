@@ -188,7 +188,7 @@
         };
 
         ThumbShift6 {
-            bindings = <&kp CARET>;
+            bindings = <&kp RS(NUMBER_6)>;
             key-positions = <33 15>;
             layers = <0>;
         };
