@@ -319,22 +319,16 @@
             layers = <0>;
         };
 
-        LayerToggle_NumToDefault {
-            bindings = <&tog 0>;
-            key-positions = <16 26>;
-            layers = <2>;
-        };
-
         LayerToggle_Nav {
             bindings = <&tog 3>;
             key-positions = <15 25>;
             layers = <0>;
         };
 
-        LayerToggle_NavToDefault {
+        LayerToggle_Default {
             bindings = <&tog 0>;
-            key-positions = <15 25>;
-            layers = <3>;
+            key-positions = <4 24>;
+            layers = <2 3>;
         };
     };
 
