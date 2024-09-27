@@ -345,7 +345,7 @@
   &lt 4 HOME    &kp PSCRN  &kp UP         &kp K_UNDO  &kp LC(X)    &none             &kp LPAR        &kp RPAR           &kp SLASH       &kp QMARK
   &mt LWIN END  &kp LEFT   &kp DOWN       &kp RIGHT   &kp LC(C)    &kp EQUAL         &mt RCTRL LBRC  &mt RSHFT RBRC     &mt RSHFT BSLH  &mt RCTRL PIPE
   &kp LCTRL     &kp LSHFT  &kp LALT       &none       &kp LC(V)    &none             &kp LBKT        &kp RBKT           &kp RSHFT       &mt LCTRL QMARK
-                           &kp BACKSPACE  &none       &kp ESC      &kp LG(LS(LEFT))  &kp RWIN        &kp LS(LG(RIGHT))
+                           &kp BACKSPACE  &kp ESC     &none        &kp LG(LS(LEFT))  &kp RWIN        &kp LS(LG(RIGHT))
             >;
         };
 
@@ -354,7 +354,7 @@
   &kp F1     &kp F2     &kp F3     &kp F4     &kp F5            &kp F6          &kp F7    &kp F8             &kp F9              &lt 4 F10
   &kp N1     &kp N2     &kp N3     &kp N4     &kp N5            &kp N6          &kp N7    &kp N8             &kp N9              &kp N0
   &kp LCTRL  &kp LSHFT  &kp LALT   &kp MINUS  &mt LWIN SLASH    &mt LWIN ASTRK  &kp PLUS  &mt RALT C_VOL_DN  &mt RSHFT C_VOL_UP  &mt RCTRL C_MUTE
-                        &kp COMMA  &kp DOT    &kp EQUAL         &kp ESC         &none     &kp ENTER
+                        &kp COMMA  &kp DOT    &kp EQUAL         &none           &kp ESC   &kp ENTER
             >;
 
             label = "12FnAud";
