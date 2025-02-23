@@ -50,4 +50,5 @@ To Do list (mainly need to learn KiCad):
 2. Move the reset switch to a switch on the side of the board that can be pressed, this will make using it with screen covers in place much easier. My keymap has bootloader keys so this is not really an issue
 
 Back of my case, visably thin
+
 ![alt text](https://github.com/woodknot/corne-wireless-5-col-view-zmk-config-Dvorak/blob/master/CorneBuildCaseBack.png?raw=true)
