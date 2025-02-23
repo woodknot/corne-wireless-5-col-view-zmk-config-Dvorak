@@ -25,23 +25,23 @@ Keyboard Reseller parts:
 1. Nice!Nano's
 2. Nice!View's
 3. Acrylic screen covers
-4. keycaps
-5. switches
-6. kailh hot-swaps
+4. Keycaps
+5. Switches
+6. Kailh hot-swaps sockets
 
 Aliexpress parts:
-1. diodes
-2. white stand-offs (for nice!nano, nice!view)
-3. pins to make the nice!nano and nice!view hot-swapable using the standoffs
-4. ph battery connectors
-5. reset buttons
-6. power slide switches
-7. round silver standoffs (for the screen acrylic covers)
-8. board to case bolts(screws?)/nuts
-9. magnetic usb-c adapters
+1. Diodes
+2. White stand-offs (for nice!nano, nice!view)
+3. Pins to make the nice!nano and nice!view hot-swapable using the standoffs
+4. White JST PH 2.0mm battery connectors
+5. Reset buttons
+6. Power slide switches
+7. Round silver standoffs (for the screen acrylic covers)
+8. Board to case bolts(screws?)/nuts
+9. Magnetic usb-c adapters
 
 Soldering tips:
-1. put a dot of solder on one of every pad, then using curved tweezers hold the component in the correct position and press the side down into the solder, then solder the other side
+1. Put a dot of solder on one of every pad, then using curved tweezers hold the component in the correct position and press the side down into the solder, then solder the other side
 2. I bought a head magnifier off Amazon, it comes with about 6 glass lenses that clip into the front of it of different focal lengths, very useful for the diodes. Otherwise use protective glasses while soldering
 3. Use a fume extractor, or what I did was buy a small rechargeable fan off Amazon and set it up to the side of me to blow the fumes away
 
