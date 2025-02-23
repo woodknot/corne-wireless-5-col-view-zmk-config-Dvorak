@@ -11,7 +11,7 @@ I had to jeryrig the power by soldering 2 cables to a ph connector as the origin
 I 3D printed my own custom keyboard case, it has cut-outs for all the components, making the lowest point only 0.2mm off the table (hot-swap sockets).
 I believe the case cut outs are close enough to the component to prevent the solder pads from being ripped off when pressing in the switches, which some have reported.
 
-![alt text](https://github.com/woodknot/corne-wireless-5-col-view-zmk-config-Dvorak/blob/master/CorneBuild.png?raw=true)
+![First Final Hardware Build Image](https://github.com/woodknot/corne-wireless-5-col-view-zmk-config-Dvorak/blob/master/CorneBuild.png?raw=true)
 
 I've learned of a custom keycap manufacturer for the choc keycaps, which I intend to use shortly, have made very few changes to my keymap the last year
 https://fkcaps.com/
@@ -51,4 +51,4 @@ To Do list (mainly need to learn KiCad):
 
 Back of my case, visably thin
 
-![alt text](https://github.com/woodknot/corne-wireless-5-col-view-zmk-config-Dvorak/blob/master/CorneBuildCaseBack.png?raw=true)
+![Ultra-low-profile Case is visibly thin](https://github.com/woodknot/corne-wireless-5-col-view-zmk-config-Dvorak/blob/master/CorneBuildCaseBack.png?raw=true)
