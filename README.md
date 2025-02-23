@@ -38,7 +38,8 @@ Aliexpress parts:
 6. Power slide switches
 7. Round silver standoffs (for the screen acrylic covers)
 8. Board to case bolts(screws?)/nuts
-9. Magnetic usb-c adapters
+9. Board/Stand Off/Screen Cover screws
+10. Magnetic usb-c adapters
 
 Soldering tips:
 1. Put a dot of solder on one of every pad, then using curved tweezers hold the component in the correct position and press the side down into the solder, then solder the other side
