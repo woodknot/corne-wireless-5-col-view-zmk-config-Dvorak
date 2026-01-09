@@ -10,12 +10,17 @@
 
 //#define AS(keycode) &as LS(keycode) keycode
 
-&mt {
-    tapping-term-ms = <250>; // Default: 200
-};
-
-&lt {
-    tapping-term-ms = <150>; // Default: 200
+// Define behavior settings
+behaviors {
+    mt: multitap {
+        compatible = "zmk,behavior-multitap";
+        tapping-term-ms = <250>; // Default: 200
+    };
+    
+    lt: layer-tap {
+        compatible = "zmk,behavior-layer-tap";
+        tapping-term-ms = <200>; // Default: 200
+    };
 };
 
 / {
