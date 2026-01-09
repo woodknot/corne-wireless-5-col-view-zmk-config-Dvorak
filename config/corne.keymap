@@ -11,20 +11,22 @@
 //#define AS(keycode) &as LS(keycode) keycode
 // Define behavior settings
 
-behaviors {
-    mt: multitap {
-        compatible = "zmk,behavior-multitap";
-        tapping-term-ms = <250>; // Default: 200
-    };
+//behaviors {
+    //mt: multitap {
+        //compatible = "zmk,behavior-multitap";
+        //tapping-term-ms = <250>; // Default: 200
+    //};
 
-    lt: layer-tap {
-        compatible = "zmk,behavior-layer-tap";
-        tapping-term-ms = <200>; // Default: 200
-    };
-};
+    //lt: layer-tap {
+        //compatible = "zmk,behavior-layer-tap";
+        //tapping-term-ms = <200>; // Default: 200
+    //};
+//};
 
 / {
-    chosen { zmk,matrix_transform = &five_column_transform; };
+    chosen { //{ zmk,matrix_transform = &five_column_transform; };
+        zmk,physical-layout = &foostan_corne_5col_layout;
+    }
 
     //    behaviors {
     //        as: auto_shift {
